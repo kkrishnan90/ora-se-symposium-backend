@@ -1,5 +1,4 @@
 {
-    //"connectionString": "mongodb://mongodb-test-mongodb-replicaset-0.mongodb-test-mongodb-replicaset.se-test.svc.cluster.local,mongodb-test-mongodb-replicaset-1.mongodb-test-mongodb-replicaset.se-test.svc.cluster.local,mongodb-test-mongodb-replicaset-2.mongodb-test-mongodb-replicaset.se-test.svc.cluster.local:27017/se-symposium-backend?replicaSet=rs0&readPreference=secondaryPreferred",
-    "connectionString": "mongodb://kumar-mongodb-replicaset-0.mongo,kumar-mongodb-replicaset-1.mongo,kumar-mongodb-replicaset-2.mongo:27017/dbname\\_?",
+    "connectionString": "mongodb://kumar-mongodb-replicaset-0.kumar-mongodb-replicaset.krishna.svc.cluster.local,kumar-mongodb-replicaset-1.kumar-mongodb-replicaset.krishna.svc.cluster.local,kumar-mongodb-replicaset-2.kumar-mongodb-replicaset.krishna.svc.cluster.local:27017/se-symposium-backend?replicaSet=rs0&readPreference=secondaryPreferred",
     "secret": "OrAcLe@Se_SyMpoSiUm_2018_JaIpUr!"
 }
