@@ -44,7 +44,7 @@ docker-build:
         packages: ruby
     - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_URL
-        channel: $SLACK_CHANNEL
+        username: $SLACK_CHANNEL
 
 kubernetes-deploy:
   steps: 
@@ -107,4 +107,4 @@ kubernetes-deploy:
         packages: ruby
     - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_URL
-        channel: $SLACK_CHANNEL
+        username: $SLACK_CHANNEL
